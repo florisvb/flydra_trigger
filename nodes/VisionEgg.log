@@ -1,0 +1,18 @@
+2015-05-28 13:48:54,864 (30341) INFO: Script /home/caveman/catkin_ws/src/flydra_triggers/nodes/sine_grating_motion.py started Vision Egg 1.2.1 with process id 30341.
+2015-05-28 13:48:55,632 (30341) CRITICAL: Traceback (most recent call last):
+  File "/home/caveman/catkin_ws/src/flydra_triggers/nodes/sine_grating_motion.py", line 19, in <module>
+    from VisionEgg.Core import *
+  File "/home/caveman/Documents/src/python/ANALYSIS/lib/python2.7/site-packages/VisionEgg/Core.py", line 35, in <module>
+    import pygame                                   # pygame handles OpenGL window setup
+ImportError: No module named pygame
+
+2015-05-28 13:49:52,463 (30549) INFO: Script /home/caveman/catkin_ws/src/flydra_triggers/nodes/sine_grating_motion.py started Vision Egg 1.2.1 with process id 30549.
+2015-05-28 13:49:52,901 (30549) CRITICAL: Traceback (most recent call last):
+  File "/home/caveman/catkin_ws/src/flydra_triggers/nodes/sine_grating_motion.py", line 21, in <module>
+    from VisionEgg.Gratings import *
+  File "/home/caveman/Documents/src/python/ANALYSIS/lib/python2.7/site-packages/VisionEgg/Gratings.py", line 26, in <module>
+    import VisionEgg.Textures
+  File "/home/caveman/Documents/src/python/ANALYSIS/lib/python2.7/site-packages/VisionEgg/Textures.py", line 41, in <module>
+    import _imaging
+ImportError: No module named _imaging
+
